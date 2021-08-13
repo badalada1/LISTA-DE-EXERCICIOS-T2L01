@@ -1,7 +1,9 @@
-qnts_cargas_de_teia = input("Homem-Aranha, quantas cargas de areia você possúi?\n")
+carga = int(input("quantas teias você tem homiranha?"))
+prediso = int(input("quantos prédios vc quer escalar homiranha?"))
 
-qnts_predios_pular = input("Quantos prédios vai pular?\n")
+total = carga / 3
 
-carga_de_teia = qnts_cargas_de_teia*3
-
-
+if(carga >= total):
+    print("você poderá pular na ponta de todos os prédios")
+elif(carga < total):
+    print("recarregue suas teias imediato")
