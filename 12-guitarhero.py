@@ -31,10 +31,15 @@ total_pontos = 0
 if notas_sequencia_acertadas > procentagem_de_acerto:
     total_pontos = 100
     print(total_pontos)
+    print(procentagem_de_acerto)
+    print(porcentagem_notas_sequencia)
 elif notas_sequencia_acertadas > procentagem_de_acerto:
     total_pontos = 50
     print(total_pontos)
+    print(procentagem_de_acerto)
+    print(porcentagem_notas_sequencia)
 elif notas_sequencia_acertadas > procentagem_de_acerto:
     total_pontos = 20
     print(total_pontos)
-    
+    print(procentagem_de_acerto)
+    print(porcentagem_notas_sequencia)
