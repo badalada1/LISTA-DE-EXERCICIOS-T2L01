@@ -13,9 +13,9 @@ carro2_tempo = float(input(""))
 
 diferenca = carro1_tempo - carro2_tempo
 
-if carro1_tempo < 1000:
+if carro1_tempo < carro2_tempo:
     print("Vencedor carro 1")
     print(f"com {diferenca} segundos de diferença")
-elif carro2_tempo < 1000:
+elif carro2_tempo < carro1_tempo:
     print("Vencedor carro 2")
     print(f"com {diferenca} segundos de diferença!")
